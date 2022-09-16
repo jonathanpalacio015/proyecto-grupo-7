@@ -1,19 +1,20 @@
 h1 {
-    background-color: blue;
     text-align: center;
 }
 
 body {
+    background-color: #f8f9fa;
     background-image: url(https://as01.epimg.net/mexico/imagenes/2022/08/06/reportajes/1659755377_894842_1660291127_noticiareportajes_grande.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.cover {
+    padding-top: 10%;
+}
 p {
     background-color: white;
-}
-
-ul {
-    background-color: rgb(231, 227, 218);
 }
 
 h2 {
@@ -26,12 +27,6 @@ h3 {
     font-size: large;
 }
 
-form {
-    background-color: rgba(19, 19, 80, 0.479);
-    color: white;
-    font-style: italic;
-}
-
 h4 {
     font-style: italic;
     font-size: large;
@@ -39,6 +34,8 @@ h4 {
 }
 .formulario {
     text-align: center;
-    margin: 20px;
+    color: black;
+    margin-top: 10%;
+    font-style: italic;
   
 }
