@@ -1,3 +1,4 @@
+        /* ESTILOS DEL INDEX  */
 h1 {
     text-align: center;
 }
@@ -5,8 +6,10 @@ h1 {
 body {
     background-color: #f8f9fa;
     background-image: url(https://as01.epimg.net/mexico/imagenes/2022/08/06/reportajes/1659755377_894842_1660291127_noticiareportajes_grande.jpg);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -26,6 +29,16 @@ h3 {
     font-style: italic;
     font-size: large;
 }
+img {
+    margin: 40px; 
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.container {
+    text-align: center;
+}
+        /* ESTILOS DEL LOGIN  */
 
 h4 {
     font-style: italic;
