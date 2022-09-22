@@ -139,14 +139,14 @@ html, body{
 
 a{
     text-decoration: none;
-    color: #838485;
+    color: #272727;
     
 }
 header{
     display: flex;
     height: 70px;
     justify-content: space-between;
-    background: linear-gradient(110deg,#6BB2ED, #DEF0FF );
+    background: linear-gradient(110deg,#1f3b72,#9ed3ff );
     align-items:center;
     padding: 6px;
     position: fixed;
