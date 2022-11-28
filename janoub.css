@@ -1,0 +1,106 @@
+/* 
+font-family: 'Bebas Neue' (titulos/subtitulos)
+font-family: 'Montserrat' (texto)
+font-family: 'Poppins' (NavBar)
+*/
+*{
+    margin: 0;
+}
+.header{
+    position: relative;
+    background: #1990FF;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 60px;
+    margin-top: 5px;
+}
+.nav_link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.nav_menu{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav_menu_item{
+    font-size: 20px;
+    margin: 0 10px;
+    font-family:'Bebas Neue', cursive;
+    font-weight: 500;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav_menu_link{
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.nav_menu_link:hover{
+    background-color: #03528b9d;
+    transition: 0.5s;
+}
+
+.nav_toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+
+    display: none;
+}
+
+/* -navbar arriba- */
+
+h1, h2{
+    font-family: 'Bebas Neue';
+    font-size: 38px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 90px;
+    color:rgba(39, 37, 37, 0.89)
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 100;
+    color:rgba(32, 30, 30, 0.89)
+
+}
+
+.imagen img {
+    width: 100%;
+    height: 10%;
+}
+
+h1, h2, p {
+    margin:10px;
+}
+
+.video {
+    align-items: center;
+    margin-right: 0;
+    margin-left: 400px;
+    line-height: 200px;
+}

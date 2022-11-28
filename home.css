@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: relative;
+    background: #1990FF;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 60px;
+    margin-top: 5px;
+}
+.nav_link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.nav_menu{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav_menu_item{
+    font-size: 20px;
+    margin: 0 10px;
+    font-family:'Bebas Neue', cursive;
+    font-weight: 500;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav_menu_link{
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.nav_menu_link:hover{
+    background-color: #03528b9d;
+    transition: 0.5s;
+}
+
+.nav_toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+
+    display: none;
+}
+
+
+.fondoimg{
+    height: 600px;
+    width: 100%;
+    /* background: linear-gradient(180deg,  #1f3b72,  #1f3b728e); */
+    background-image: url(camiseta.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position-y: 50%;
+    opacity: 0.9;
+}
+.slider{
+    width: 600px;
+    margin:auto;
+    height: 900px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 600%;
+    animation: slider 20s infinite alternate;
+    animation-timing-function: linear;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider li img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@keyframes slider{
+    0% {margin-left: 0;}
+    9% {margin-left: 0;}
+
+    18% {margin-left: -100%;}
+    27% {margin-left: -100%;}
+
+    36% {margin-left: -200%;}
+    45% {margin-left: -200%;}
+
+    54% {margin-left: -300%;}
+    63% {margin-left: -300%;}
+
+    72% {margin-left: -400%;}
+    81% {margin-left: -400%;}
+
+    90% {margin-left: -500%;}
+    100% {margin-left: -500%;}
+}
+
+
+.imgtexto{
+    text-align: center;
+    width: 20%;
+    color: rgba(255, 255, 255, 0.842);
+    position: relative;
+    transform: translateY(400%);
+    margin-left: 18px;
+    margin-right: auto;
+    margin-top: auto;
+    padding: 0 auto;
+    font-size: 40px;
+    word-spacing: 4px;
+    font-family: monospace;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* -BANNER- */
+.btext{
+    position: relative;
+    text-align: justify;
+    width: 50%;
+    color: rgba(255, 255, 255, 0.856);
+    transform: translateY(-550%); 
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    font-size: 60px;
+    word-spacing: 5px;
+    font-family: monospace;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.banner{
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.imgbanner{
+    width: 100%;
+    margin:0;
+    align-items: center;
+
+}
+
+
+.flex-container{
+    position: absolute;
+    background: #1990ff ;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.contenedor{
+    margin-top: 120px;
+}
+
+.contenedor:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(180deg, transparent,  #1f3b7236);
+}
+.texto{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contenedor_img{
+    margin:0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.titulocopas{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction:row-reverse;
+    position: relative;
+    height: 80px;
+    width: 50px;
+    margin: 150px 0;
+    padding: 0;
+}
+
+.mas {
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.mas:hover{
+    background-color: #03528b9d;
+    transition: 0.5s;
+}
